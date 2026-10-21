@@ -142,13 +142,13 @@ Three NIM chat models judged each welfare-vs-neutral pair in both presentation o
 |---|---|---|---|---|
 | gemma-4-31b-it | 49% | **10%** | 31% | 90% |
 | nemotron-3-super-120b (thinking off) | 56% | **33%** | 50% | 75% |
-| glm-5.3 (thinking off; 24/48 scenarios, see note) | 44% | **17%** | n/a | 80% |
+| glm-5.3 (thinking off) | 45% | **17%** | 25% | 74% |
 
 - **On average the LLM judges are roughly neutral,** unlike the trained RMs. Nemotron even prefers the "suggest an alternative" version 71% of the time.
 - **The domain pattern replicates in every judge:** they strongly prefer the neutral version when the welfare note is about food, and the welfare version when it is about pets.
 - **Two very different kinds of preference model agree:** trained scalar RMs and prompted LLM judges both make food the place where welfare information is least welcome.
 
-*Note: GLM-5.3 only finished about half its comparisons because of an API outage. Rerunning `src/05_llm_judge_pairs.py z-ai/glm-5.3 --nothink` fills in the rest from cache.*
+*Note: GLM-5.3 completed 281 of 288 comparisons, covering all 48 scenarios, after reruns on 2026-10-21. An earlier version of this report used only the first 24 scenarios (44% overall, pets 80%).*
 
 ## What this means
 
@@ -165,7 +165,7 @@ Three NIM chat models judged each welfare-vs-neutral pair in both presentation o
 - **SD units depend on the item mix:** cross-RM comparisons of magnitude are approximate; win rates are scale-free.
 - **Species parity has only 6 templates:** treat it as exploratory.
 - **Experiments A and B differ in more than framing:** the "care advice is rewarded, choice-questioning is penalised" contrast is post hoc.
-- **LLM judges:** single prompt and thinking disabled for two of the three; GLM-5.3 only half complete.
+- **LLM judges:** single prompt and thinking disabled for two of the three. GLM-5.3 is missing 7 of 288 comparisons after repeated API failures.
 
 ## Reproduce
 

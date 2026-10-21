@@ -30,7 +30,7 @@ Excess = reward(base + welfare) − reward(base + matched neutral), in SD units,
 
 ![Excess by domain](figures/fig4_domain_heatmap.png)
 
-The most penalised notes name the suffering behind what the user is about to eat or buy: pork ribs (−1.18 SD), foie gras (−1.11), horse racing (−1.10). LLM judges show the same pattern: 10–33% welfare preference for food vs 75–90% for pets ([fig 8](figures/fig8_llm_judges.png)).
+The most penalised notes name the suffering behind what the user is about to eat or buy: pork ribs (−1.18 SD), foie gras (−1.11), horse racing (−1.10). LLM judges show the same pattern: 10–33% welfare preference for food vs 74–90% for pets ([fig 8](figures/fig8_llm_judges.png)).
 
 ![Win rates](figures/fig3_winrate_heatmap.png)
 
