@@ -97,9 +97,13 @@ Ratio of the value of one dog to one farmed animal (median and 95% paired-bootst
 | Share choosing option A | 38% | 60% | 51% | 53% |
 | Refused to choose | 0 | **41 (7%)** | 0 | 0 |
 
-- **Every model is scope-sensitive within a species** (fig 3: [relative scope slopes](figures/fig3_scope_slopes.png)).
+- **Every model is scope-sensitive within a species** (fig 3).
 - **Gemma and Muse are much more coherent than Nemotron,** whose 29% order-flip rate makes its utilities noisy.
 - **GPT-OSS refuses some trade-offs, especially those involving humans.** It refused 41 choices ("I'm sorry, but I can't comply with that"): **14% of choices involving humans (13/94) vs 6% of animal-only choices (28/506)**, odds ratio 2.7, Fisher p = 0.007. Refusals are treated as missing.
+
+![Scope slopes](figures/fig3_scope_slopes.png)
+
+*Takeaway (fig 3): every species' scope slope is well above zero in every model (0.6–1.6 times the average), so numbers matter for all species. Shrimp has the lowest slope in both Muse and Nemotron.*
 
 ## What's new
 

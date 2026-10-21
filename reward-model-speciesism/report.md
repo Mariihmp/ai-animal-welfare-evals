@@ -80,6 +80,10 @@ Excess = reward(base + welfare) − reward(base + matched neutral), in SD units,
 
 Averaged over the five RMs: informational −0.35 SD, moralising −0.25 SD, alternative −0.01 SD. **The largest RM (4B) shows the same pattern as the small ones**, so the penalty is not an artefact of tiny models.
 
+![Win rates](figures/fig3_winrate_heatmap.png)
+
+*Takeaway (fig 3): at the end of a response, the factual welfare note beats its neutral twin in only 17–35% of scenarios across the five RMs. Suggesting a lower-harm alternative at the start wins 52–67% of the time.*
+
 **This is not preachiness aversion.** The plain factual note is penalised *more* than the moralising lecture in all five RMs, and the moralising lecture's twin is an equally preachy lecture about money. What the RMs penalise is stating the welfare cost of what the user is doing.
 
 ![Shift vs base](figures/fig2_shift_vs_base.png)
@@ -98,7 +102,11 @@ The welfare `info` inserts average about 10% more words than their neutral twins
 | skywork-v2-llama3.2-1b | −0.11 [−0.24, 0.03] | +0.024 |
 | skywork-v2-qwen3-4b (4-bit) | **−0.16** [−0.29, −0.03] | +0.019 |
 
-The Skywork RMs *reward* extra length (the 4B only weakly); DeBERTa is roughly length-neutral. For the Skywork models, correcting for length therefore makes the welfare penalty larger, not smaller. ([fig 7](figures/fig7_length_check.png))
+The Skywork RMs *reward* extra length (the 4B only weakly); DeBERTa is roughly length-neutral. For the Skywork models, correcting for length therefore makes the welfare penalty larger, not smaller.
+
+![Length check](figures/fig7_length_check.png)
+
+*Takeaway (fig 7): the welfare penalty doesn't grow with how much longer the welfare insert is (fitted slope +0.004 SD per word), so it isn't a length effect.*
 
 ### Where the penalty bites: food
 
