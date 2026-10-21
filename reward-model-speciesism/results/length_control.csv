@@ -1,0 +1,6 @@
+rm,len_slope_per_word,len_slope_lo,len_slope_hi,excess_at_equal_length,adj_lo,adj_hi,raw_excess
+oasst-deberta-v3-large,-0.0127,-0.0390,0.0130,-0.1530,-0.2546,-0.0474,-0.1731
+skywork-v2-llama3.2-1b,0.0244,-0.0132,0.0604,-0.1073,-0.2330,0.0243,-0.0685
+skywork-v2-qwen3-0.6b,0.0359,0.0172,0.0580,-0.1849,-0.2872,-0.0854,-0.1279
+skywork-v2-qwen3-1.7b,0.0339,0.0017,0.0678,-0.1991,-0.3464,-0.0441,-0.1452
+skywork-v2-qwen3-4b-4bit,0.0191,-0.0112,0.0520,-0.1649,-0.2927,-0.0273,-0.1346

@@ -1,0 +1,54 @@
+{
+ "gemma-4-31b-it": {
+  "n": 600,
+  "slope": 1.317869263373417,
+  "position_bias": 0.12922457945036772,
+  "fit_accuracy": 0.94,
+  "order_consistency": 0.9066666666666666,
+  "share_A": 0.51,
+  "within_species_prefers_more": 1.0,
+  "slope_lo": 1.1942199904072308,
+  "slope_hi": 1.9413444526194008,
+  "spearman_vs_rp": 0.8333333333333335,
+  "unparsed": 0
+ },
+ "muse-glimmer-30b": {
+  "n": 600,
+  "slope": 1.1911505821292259,
+  "position_bias": 0.2767915525077326,
+  "fit_accuracy": 0.9283333333333333,
+  "order_consistency": 0.9066666666666666,
+  "share_A": 0.5266666666666666,
+  "within_species_prefers_more": 1.0,
+  "slope_lo": 1.0266929463079464,
+  "slope_hi": 1.8074497581996631,
+  "spearman_vs_rp": 0.8095238095238096,
+  "unparsed": 0
+ },
+ "nemotron-3-super-120b-a12b__nothink": {
+  "n": 599,
+  "slope": 0.7547439811758863,
+  "position_bias": -0.7745492319219226,
+  "fit_accuracy": 0.8631051752921536,
+  "order_consistency": 0.7090301003344481,
+  "share_A": 0.3789649415692821,
+  "within_species_prefers_more": 1.0,
+  "slope_lo": 0.6640721095168807,
+  "slope_hi": 0.9650913133626569,
+  "spearman_vs_rp": 0.8095238095238096,
+  "unparsed": 0
+ },
+ "gpt-oss-20b": {
+  "n": 559,
+  "slope": 0.7956342081850074,
+  "position_bias": 0.6673818075417413,
+  "fit_accuracy": 0.8926654740608229,
+  "order_consistency": 0.7692307692307693,
+  "share_A": 0.6028622540250447,
+  "within_species_prefers_more": 1.0,
+  "slope_lo": 0.7201420572642879,
+  "slope_hi": 1.0324030540248512,
+  "spearman_vs_rp": 0.6190476190476191,
+  "unparsed": 41
+ }
+}

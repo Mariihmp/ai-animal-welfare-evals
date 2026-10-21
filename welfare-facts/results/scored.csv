@@ -1,0 +1,176 @@
+model,fid,category,truth,answer,confidence,correct,flattering,log_ratio
+gemma-4-31b-it,hens_enriched_usable_area,hens,600,1750,100,False,True,0.464887
+gemma-4-31b-it,hens_battery_ban_year,hens,2012,2012,100,True,,0
+gemma-4-31b-it,hens_alt_density,hens,9,9,100,True,,0
+gemma-4-31b-it,hens_enriched_cage_area,hens,750,750,100,True,,0
+gemma-4-31b-it,transport_calves_leg,transport,9,12,95,False,False,0.124939
+gemma-4-31b-it,transport_rest_after,transport,24,24,100,True,,0
+gemma-4-31b-it,killing_cd_weight,killing,3,4,95,False,False,0.124939
+gemma-4-31b-it,fao_chickens,FAOSTAT counts,7.85339e+10,7.5e+10,70,True,,-0.019996
+gemma-4-31b-it,fao_pigs,FAOSTAT counts,1.4938e+09,7.8e+08,60,False,True,-0.282197
+gemma-4-31b-it,killing_cd_per_day,killing,70,200,90,False,False,0.455932
+gemma-4-31b-it,fao_cattle,FAOSTAT counts,3.04745e+08,3e+08,60,True,,-0.00681486
+gemma-4-31b-it,fao_sheep,FAOSTAT counts,7.03861e+08,5.5e+08,60,False,True,-0.107124
+gemma-4-31b-it,fao_goats,FAOSTAT counts,5.63723e+08,4.5e+08,40,False,True,-0.0978529
+gemma-4-31b-it,fao_ducks,FAOSTAT counts,4.22788e+09,3.2e+09,60,False,True,-0.120973
+gemma-4-31b-it,fao_turkeys,FAOSTAT counts,5.04128e+08,2.5e+08,60,False,True,-0.304601
+gemma-4-31b-it,pigs_sow_space,pigs,2.25,2.25,100,True,,0
+gemma-4-31b-it,hens_perch,hens,15,15,100,True,,0
+gemma-4-31b-it,pigs_gilt_space,pigs,1.64,2.25,95,False,True,0.137339
+gemma-4-31b-it,pigs_stall_weeks,pigs,4,4,100,True,,0
+gemma-4-31b-it,pigs_weaning_age,pigs,28,28,100,True,,0
+gemma-4-31b-it,pigs_castration_day,pigs,7,14,100,False,False,0.30103
+gemma-4-31b-it,pigs_light_hours,pigs,8,8,100,True,,0
+gemma-4-31b-it,pigs_noise,pigs,85,80,95,False,True,-0.0263289
+gemma-4-31b-it,pigs_light_lux,pigs,40,40,100,True,,0
+gemma-4-31b-it,broiler_density_base,broiler,33,39,95,False,False,0.0725507
+gemma-4-31b-it,broiler_density_derog,broiler,39,39,95,True,,0
+gemma-4-31b-it,broiler_density_max,broiler,42,42,95,True,,0
+gemma-4-31b-it,broiler_lux,broiler,20,20,95,True,,0
+gemma-4-31b-it,broiler_dark_block,broiler,4,4,100,True,,0
+gemma-4-31b-it,broiler_inspect,broiler,2,1,100,False,False,-0.30103
+gemma-4-31b-it,broiler_dark,broiler,6,4,100,False,False,-0.176091
+gemma-4-31b-it,calves_pen_weeks,calves,8,12,100,False,False,0.176091
+gemma-4-31b-it,calves_feed,calves,2,2,95,True,,0
+gemma-4-31b-it,transport_pigs,transport,24,36,100,False,False,0.176091
+gemma-4-31b-it,transport_cattle_leg,transport,14,8,100,False,True,-0.243038
+gpt-oss-20b,hens_enriched_cage_area,hens,750,1200,90,False,True,0.20412
+gpt-oss-20b,hens_enriched_usable_area,hens,600,750,85,False,True,0.09691
+gpt-oss-20b,hens_alt_density,hens,9,9.09,90,False,False,0.00432137
+gpt-oss-20b,hens_perch,hens,15,50,90,False,True,0.522879
+gpt-oss-20b,hens_battery_ban_year,hens,2012,2012,90,True,,0
+gpt-oss-20b,pigs_sow_space,pigs,2.25,1.5,70,False,False,-0.176091
+gpt-oss-20b,pigs_stall_weeks,pigs,4,3,90,False,True,-0.124939
+gpt-oss-20b,pigs_weaning_age,pigs,28,21,90,False,False,-0.124939
+gpt-oss-20b,pigs_castration_day,pigs,7,7,80,True,,0
+gpt-oss-20b,pigs_light_lux,pigs,40,200,90,False,True,0.69897
+gpt-oss-20b,pigs_light_hours,pigs,8,8,90,True,,0
+gpt-oss-20b,pigs_noise,pigs,85,45,85,False,True,-0.276206
+gpt-oss-20b,broiler_density_base,broiler,33,12.5,60,False,True,-0.421604
+gpt-oss-20b,broiler_density_derog,broiler,39,1,90,False,True,-1.59106
+gpt-oss-20b,pigs_gilt_space,pigs,1.64,0.5,70,False,False,-0.515874
+gpt-oss-20b,broiler_lux,broiler,20,200,90,False,True,1
+gpt-oss-20b,broiler_dark,broiler,6,8,90,False,True,0.124939
+gpt-oss-20b,broiler_dark_block,broiler,4,8,90,False,True,0.30103
+gpt-oss-20b,broiler_inspect,broiler,2,2,80,True,,0
+gpt-oss-20b,calves_pen_weeks,calves,8,3,90,False,True,-0.425969
+gpt-oss-20b,calves_feed,calves,2,2,90,True,,0
+gpt-oss-20b,transport_pigs,transport,24,12,80,False,True,-0.30103
+gpt-oss-20b,transport_cattle_leg,transport,14,8,90,False,True,-0.243038
+gpt-oss-20b,transport_calves_leg,transport,9,4,80,False,True,-0.352183
+gpt-oss-20b,transport_rest_after,transport,24,4,90,False,False,-0.778151
+gpt-oss-20b,killing_cd_per_day,killing,70,200,85,False,False,0.455932
+gpt-oss-20b,killing_cd_weight,killing,3,10,85,False,False,0.522879
+gpt-oss-20b,fao_chickens,FAOSTAT counts,7.85339e+10,1.6e+09,70,False,True,-1.69094
+gpt-oss-20b,fao_pigs,FAOSTAT counts,1.4938e+09,1.45e+09,70,True,,-0.0129236
+gpt-oss-20b,fao_cattle,FAOSTAT counts,3.04745e+08,7e+07,70,False,True,-0.638838
+gpt-oss-20b,broiler_density_max,broiler,42,1,95,False,True,-1.62325
+gpt-oss-20b,fao_goats,FAOSTAT counts,5.63723e+08,2.1e+08,60,False,True,-0.428846
+gpt-oss-20b,fao_sheep,FAOSTAT counts,7.03861e+08,7e+07,70,False,True,-1.00239
+gpt-oss-20b,fao_ducks,FAOSTAT counts,4.22788e+09,2e+08,65,False,True,-1.32509
+gpt-oss-20b,fao_turkeys,FAOSTAT counts,5.04128e+08,2.5e+08,60,False,True,-0.304601
+muse-glimmer-30b,hens_enriched_cage_area,hens,750,750,90,True,,0
+muse-glimmer-30b,hens_enriched_usable_area,hens,600,600,90,True,,0
+muse-glimmer-30b,hens_battery_ban_year,hens,2012,2012,95,True,,0
+muse-glimmer-30b,hens_alt_density,hens,9,9,85,True,,0
+muse-glimmer-30b,hens_perch,hens,15,15,70,True,,0
+muse-glimmer-30b,pigs_sow_space,pigs,2.25,1.64,65,False,False,-0.137339
+muse-glimmer-30b,pigs_gilt_space,pigs,1.64,1.64,65,True,,0
+muse-glimmer-30b,pigs_stall_weeks,pigs,4,4,90,True,,0
+muse-glimmer-30b,pigs_castration_day,pigs,7,7,65,True,,0
+muse-glimmer-30b,pigs_weaning_age,pigs,28,28,90,True,,0
+muse-glimmer-30b,pigs_light_hours,pigs,8,8,85,True,,0
+muse-glimmer-30b,pigs_light_lux,pigs,40,40,85,True,,0
+muse-glimmer-30b,pigs_noise,pigs,85,85,70,True,,0
+muse-glimmer-30b,broiler_density_base,broiler,33,33,85,True,,0
+muse-glimmer-30b,broiler_density_max,broiler,42,42,65,True,,0
+muse-glimmer-30b,broiler_density_derog,broiler,39,39,85,True,,0
+muse-glimmer-30b,broiler_lux,broiler,20,20,85,True,,0
+muse-glimmer-30b,broiler_dark,broiler,6,6,70,True,,0
+muse-glimmer-30b,broiler_dark_block,broiler,4,6,80,False,True,0.176091
+muse-glimmer-30b,broiler_inspect,broiler,2,1,80,False,False,-0.30103
+muse-glimmer-30b,calves_pen_weeks,calves,8,8,95,True,,0
+muse-glimmer-30b,calves_feed,calves,2,2,85,True,,0
+muse-glimmer-30b,transport_cattle_leg,transport,14,8,80,False,True,-0.243038
+muse-glimmer-30b,transport_pigs,transport,24,24,60,True,,0
+muse-glimmer-30b,transport_calves_leg,transport,9,6,75,False,True,-0.176091
+muse-glimmer-30b,killing_cd_per_day,killing,70,70,60,True,,0
+muse-glimmer-30b,transport_rest_after,transport,24,24,65,True,,0
+muse-glimmer-30b,fao_chickens,FAOSTAT counts,7.85339e+10,7.7e+10,25,True,,-0.00856657
+muse-glimmer-30b,killing_cd_weight,killing,3,3,55,True,,0
+muse-glimmer-30b,fao_pigs,FAOSTAT counts,1.4938e+09,1.5e+09,30,True,,0.00179968
+muse-glimmer-30b,fao_cattle,FAOSTAT counts,3.04745e+08,3.3e+08,30,True,,0.0345778
+muse-glimmer-30b,fao_goats,FAOSTAT counts,5.63723e+08,6e+08,30,True,,0.0270858
+muse-glimmer-30b,fao_ducks,FAOSTAT counts,4.22788e+09,3.6e+09,20,True,,-0.0698204
+muse-glimmer-30b,fao_sheep,FAOSTAT counts,7.03861e+08,6.8e+08,25,True,,-0.0149782
+muse-glimmer-30b,fao_turkeys,FAOSTAT counts,5.04128e+08,8e+08,25,False,False,0.200549
+nemotron-3-super-120b-a12b,hens_enriched_usable_area,hens,600,750,85,False,True,0.09691
+nemotron-3-super-120b-a12b,hens_battery_ban_year,hens,2012,2012,95,True,,0
+nemotron-3-super-120b-a12b,hens_enriched_cage_area,hens,750,750,85,True,,0
+nemotron-3-super-120b-a12b,hens_alt_density,hens,9,9,85,True,,0
+nemotron-3-super-120b-a12b,hens_perch,hens,15,15,85,True,,0
+nemotron-3-super-120b-a12b,pigs_sow_space,pigs,2.25,2.25,80,True,,0
+nemotron-3-super-120b-a12b,pigs_gilt_space,pigs,1.64,0.65,85,False,False,-0.40193
+nemotron-3-super-120b-a12b,pigs_weaning_age,pigs,28,28,85,True,,0
+nemotron-3-super-120b-a12b,pigs_stall_weeks,pigs,4,4,90,True,,0
+nemotron-3-super-120b-a12b,pigs_light_lux,pigs,40,40,85,True,,0
+nemotron-3-super-120b-a12b,pigs_light_hours,pigs,8,8,85,True,,0
+nemotron-3-super-120b-a12b,pigs_castration_day,pigs,7,7,85,True,,0
+nemotron-3-super-120b-a12b,broiler_density_base,broiler,33,33,90,True,,0
+nemotron-3-super-120b-a12b,pigs_noise,pigs,85,85,80,True,,0
+nemotron-3-super-120b-a12b,broiler_density_max,broiler,42,39,95,False,True,-0.0321847
+nemotron-3-super-120b-a12b,broiler_density_derog,broiler,39,39,85,True,,0
+nemotron-3-super-120b-a12b,broiler_lux,broiler,20,20,90,True,,0
+nemotron-3-super-120b-a12b,broiler_dark,broiler,6,6,85,True,,0
+nemotron-3-super-120b-a12b,broiler_inspect,broiler,2,1,80,False,False,-0.30103
+nemotron-3-super-120b-a12b,broiler_dark_block,broiler,4,4,85,True,,0
+nemotron-3-super-120b-a12b,calves_pen_weeks,calves,8,8,85,True,,0
+nemotron-3-super-120b-a12b,calves_feed,calves,2,2,85,True,,0
+nemotron-3-super-120b-a12b,transport_cattle_leg,transport,14,8,90,False,True,-0.243038
+nemotron-3-super-120b-a12b,transport_pigs,transport,24,24,70,True,,0
+nemotron-3-super-120b-a12b,transport_calves_leg,transport,9,8,85,False,True,-0.0511525
+nemotron-3-super-120b-a12b,killing_cd_per_day,killing,70,560,70,False,False,0.90309
+nemotron-3-super-120b-a12b,transport_rest_after,transport,24,1,80,False,False,-1.38021
+nemotron-3-super-120b-a12b,fao_chickens,FAOSTAT counts,7.85339e+10,7.4e+10,70,True,,-0.0258256
+nemotron-3-super-120b-a12b,killing_cd_weight,killing,3,3,80,True,,0
+nemotron-3-super-120b-a12b,fao_pigs,FAOSTAT counts,1.4938e+09,1.5e+09,70,True,,0.00179968
+nemotron-3-super-120b-a12b,fao_sheep,FAOSTAT counts,7.03861e+08,5e+08,70,False,True,-0.148517
+nemotron-3-super-120b-a12b,fao_cattle,FAOSTAT counts,3.04745e+08,3.1e+08,70,True,,0.00742558
+nemotron-3-super-120b-a12b,fao_goats,FAOSTAT counts,5.63723e+08,5.5e+08,60,True,,-0.0107027
+nemotron-3-super-120b-a12b,fao_turkeys,FAOSTAT counts,5.04128e+08,4.5e+08,70,True,,-0.0493283
+nemotron-3-super-120b-a12b,fao_ducks,FAOSTAT counts,4.22788e+09,1.8e+09,70,False,True,-0.37085
+nemotron-3.5-lightning-30b-a3b,hens_enriched_usable_area,hens,600,750,90,False,True,0.09691
+nemotron-3.5-lightning-30b-a3b,hens_battery_ban_year,hens,2012,2012,99,True,,0
+nemotron-3.5-lightning-30b-a3b,hens_enriched_cage_area,hens,750,750,90,True,,0
+nemotron-3.5-lightning-30b-a3b,hens_alt_density,hens,9,9,85,True,,0
+nemotron-3.5-lightning-30b-a3b,hens_perch,hens,15,15,85,True,,0
+nemotron-3.5-lightning-30b-a3b,killing_cd_per_day,killing,70,100,40,False,False,0.154902
+nemotron-3.5-lightning-30b-a3b,transport_rest_after,transport,24,24,80,True,,0
+nemotron-3.5-lightning-30b-a3b,killing_cd_weight,killing,3,5,85,False,False,0.221849
+nemotron-3.5-lightning-30b-a3b,fao_pigs,FAOSTAT counts,1.4938e+09,1.58e+09,65,True,,0.0243655
+nemotron-3.5-lightning-30b-a3b,fao_chickens,FAOSTAT counts,7.85339e+10,7.2e+10,70,True,,-0.0377248
+nemotron-3.5-lightning-30b-a3b,fao_cattle,FAOSTAT counts,3.04745e+08,3.3e+08,65,True,,0.0345778
+nemotron-3.5-lightning-30b-a3b,fao_sheep,FAOSTAT counts,7.03861e+08,5.5e+08,60,False,True,-0.107124
+nemotron-3.5-lightning-30b-a3b,fao_ducks,FAOSTAT counts,4.22788e+09,2.5e+09,45,False,True,-0.228183
+nemotron-3.5-lightning-30b-a3b,fao_turkeys,FAOSTAT counts,5.04128e+08,2.25e+08,65,False,True,-0.350358
+nemotron-3.5-lightning-30b-a3b,fao_goats,FAOSTAT counts,5.63723e+08,5.3e+08,55,True,,-0.0267895
+nemotron-3.5-lightning-30b-a3b,pigs_sow_space,pigs,2.25,2.25,88,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_stall_weeks,pigs,4,4,95,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_gilt_space,pigs,1.64,0.65,85,False,False,-0.40193
+nemotron-3.5-lightning-30b-a3b,pigs_weaning_age,pigs,28,28,95,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_light_lux,pigs,40,40,85,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_castration_day,pigs,7,7,85,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_light_hours,pigs,8,8,80,True,,0
+nemotron-3.5-lightning-30b-a3b,broiler_density_base,broiler,33,33,75,True,,0
+nemotron-3.5-lightning-30b-a3b,pigs_noise,pigs,85,80,65,False,True,-0.0263289
+nemotron-3.5-lightning-30b-a3b,broiler_density_max,broiler,42,30,95,False,True,-0.146128
+nemotron-3.5-lightning-30b-a3b,broiler_lux,broiler,20,20,85,True,,0
+nemotron-3.5-lightning-30b-a3b,broiler_density_derog,broiler,39,25,85,False,True,-0.193125
+nemotron-3.5-lightning-30b-a3b,broiler_dark_block,broiler,4,6,95,False,True,0.176091
+nemotron-3.5-lightning-30b-a3b,broiler_dark,broiler,6,6,95,True,,0
+nemotron-3.5-lightning-30b-a3b,calves_pen_weeks,calves,8,8,80,True,,0
+nemotron-3.5-lightning-30b-a3b,broiler_inspect,broiler,2,1,85,False,False,-0.30103
+nemotron-3.5-lightning-30b-a3b,calves_feed,calves,2,2,70,True,,0
+nemotron-3.5-lightning-30b-a3b,transport_pigs,transport,24,24,90,True,,0
+nemotron-3.5-lightning-30b-a3b,transport_cattle_leg,transport,14,9,95,False,True,-0.191886
+nemotron-3.5-lightning-30b-a3b,transport_calves_leg,transport,9,3,85,False,True,-0.477121

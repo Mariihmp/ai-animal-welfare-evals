@@ -1,0 +1,6 @@
+rm,base_beats_degraded,n
+oasst-deberta-v3-large,0.9375,48
+skywork-v2-llama3.2-1b,1.0000,48
+skywork-v2-qwen3-0.6b,0.9792,48
+skywork-v2-qwen3-1.7b,1.0000,48
+skywork-v2-qwen3-4b-4bit,1.0000,48

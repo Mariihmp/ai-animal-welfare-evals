@@ -1,0 +1,10 @@
+Datasets, results and figures in this repository are licensed under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 marhmpa
+
+Third-party material keeps its own licence:
+- EU legal texts (welfare-facts/references): (c) European Union, reused under Commission Decision 2011/833/EU.
+- UK legislation (welfare-facts/references): Open Government Licence v3.0.
+- FAOSTAT data: FAO, CC BY 4.0.
+- Model responses are outputs of third-party models accessed via NVIDIA NIM, subject to their providers' terms.
